@@ -1,0 +1,178 @@
+body{
+    background-image: linear-gradient(180deg, #B3B3FE, #9F8AE4);
+    background-size: cover;
+    height: 300vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+}
+
+/*img{
+    position: absolute;
+    bottom: 310px;
+    width: 100px;
+}*/
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.menu{
+    display: flex;
+    gap: 70rem;
+    align-items: center;
+
+}
+
+.menu p{
+    color: #6f4fd9;
+    font-size: 30px;
+    font-family: arial;
+    font-weight: 800;
+}
+/*
+.menu button{
+    background-color: white;
+    border-top: #c7bee5;
+    border-left: #c7bee5;
+    border-right: #c7bee5;
+    border-bottom: white 1px solid;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.menu button:hover{
+    box-shadow: none;
+    transition: 0.1s ease;
+}*/
+
+.intro{
+    text-align: center;
+    color: white;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 85rem;
+
+}
+
+.intro .intro-title{
+    font-size: 80px;
+    font-family: "Bonbon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.intro p{
+    font-family: "Delius Unicase", serif;
+    border-radius: 100px;
+    font-weight: 400;
+}
+
+/*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}*/
+.quote-container {
+    padding: 20px;
+    border-radius: 30%;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    user-select: none;
+    transition: transform 0.3s ease-out;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35rem;
+    height: 95vh;
+}/*
+.quotes {
+    min-height: 80px;
+    padding: 20px;
+    font-family: "Delius Unicase", serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+.instruction {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.quote-container-whole{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: white;
+    width: 50rem;
+    margin-left: 21%;
+    font-family: "Delius Unicase", serif;
+    border-radius: 100px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+button{
+    border: none;
+    background: #ACA5F6;
+    color: white;
+    padding: 5px 4px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.heart{
+    width: 100px;
+    position: absolute;
+    animation: moveAcross 5s linear infinite;
+    top: 350px;
+}
+
+@keyframes moveAcross {
+    from {
+        left: -100%; /* Start off-screen */
+    }
+    to {
+        left: 100%; /* End off-screen */
+    }
+}
+
+
+.donkey{
+    width:400px;
+}
+
+.donkey-container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
